@@ -13,7 +13,9 @@ Pi-hole v6 se ejecuta en un contenedor **LXC** de Proxmox con muy pocos recursos
 1. **DNS** con filtrado de anuncios y rastreadores mediante listas de bloqueo.
 2. **DHCP**, sustituyendo al servidor DHCP del router. Así cada dispositivo aparece por su nombre en el registro de consultas.
 
-![Panel de Pi-hole](pihole-dns-dashboard.png)
+![Panel de Pi-hole](docs/img/panel-pihole.png)
+
+Captura del 4 de octubre de 2026: ~54 000 consultas en un día, ~20 % bloqueadas, ~384 000 dominios en listas y 19 clientes activos.
 
 ## Arquitectura
 
