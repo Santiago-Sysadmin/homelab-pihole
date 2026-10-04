@@ -4,6 +4,8 @@
 >
 > **Política de publicación:** este repositorio no contiene direcciones IP, rangos, MACs, nombres de red Wi-Fi, listados de dispositivos ni configuración que facilite mapear la red. Se usan marcadores como `IP_PIHOLE`, `IP_ROUTER` o `RANGO_DHCP`.
 
+**EN —** Pi-hole (v6) runs in a tiny LXC container on Proxmox and serves as both the **DNS filter and the DHCP server** for the whole home network. This repo documents the DHCP migration away from the router (with a tested rollback plan), IP reservations, safe configuration changes, weekly Teleporter backups and DNS-health monitoring. Documentation is in Spanish; no network details are published.
+
 ## Resumen
 
 Pi-hole v6 se ejecuta en un contenedor **LXC** de Proxmox con muy pocos recursos (1 vCPU, 512 MB). Hace dos trabajos para toda la LAN:
